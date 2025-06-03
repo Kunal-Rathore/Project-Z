@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* Nav */
+
+/* icon */
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 58px;
+    width: 100%;
+    display: flex;
+    border: 1.5px solid cadetblue;
+    justify-content: space-around;
+
+    position: fixed;
+}
+
+.iconDiv {
+
+
+    width: 432px;
+    padding: 17px 0px 30px 160px;
+
+}
+
+.icon {
+    height: 14px;
+    width: 117px;
+}
+
+
+/* Selection */
+
+.selection {
+    height: 64px;
+    width: 590px;
+    display: flex;
+
+}
+
+.selectionItems {
+    color: #666;
+    text-decoration: none;
+    padding: 17px 28px 17px 28px;
+    font-size: 14px;
+}
+
+.selectionItems:hover {
+    color: rgb(104, 123, 211);
+}
+
+
+.Menu {
+    color: #666;
+    padding: 14px;
+}
+
+.mainDiv {
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.landingImageDiv {
+    height: 630px;
+    width: 850px;
+    margin: 0px 120px 0px 120px;
+
+}
+
+
+.landingImage {
+    height: 410px;
+    width: 890px;
+    margin-bottom: 40px;
+
+}
+
+
+.investDiv {
+    height: fit-content;
+    color: #666;
+    font-size: 38px;
+    text-align: center;
+}
+
+.investDisc {
+    height: fit-content;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    margin: 7px 0px 7px 0px;
+}
+
+.signUpDiv {
+    height: 37px;
+    width: 186px;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.signUpDivInside {
+    height: 33px;
+    width: 130px;
+
+    background-color: rgb(42, 125, 169);
+    border-radius: 3px;
+    align-content: center;
+}
+
+.signUpText a {
+
+
+    font-size: 16px;
+    padding-left: 13px;
+    font-weight: 500;
+    color: #2c2b2b;
+}
+
+
+.mainDiv2 {
+
+    padding: 50px 50px 50px 50px;
+    margin: 0px 80px 0px 80px;
+    display: flex;
+
+}
+
+.ecosystemImgDiv {
+    height: 600px;
+    width: 570px;
+}
+
+.ecosystemImg {
+    height: 600px;
+    width: 600px;
+
+}
+
+.ecosystemDisDiv {
+    font-family: "Inter", serif;
+    color: #2c2b2b;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(229, 233, 236);
+}
+
+.footerDiv {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.footerIconDiv {
+    height: 330px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerIcon {
+
+    height: 21px;
+    width: 144px;
+
+}
+
+.accountDiv {
+    height: 450px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footerDisc {
+    display: flex;
+    padding-left: 85px;
+    font-size: 14px;
+    color: #2c2b2b;
+}
