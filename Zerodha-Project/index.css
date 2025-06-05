@@ -3,6 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Inter", serif;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 a {
@@ -19,39 +21,46 @@ nav {
     width: 100%;
     display: flex;
     border: 1.5px solid cadetblue;
-    justify-content: space-around;
-
+    padding: 23px 0px 30px 0px;
     position: fixed;
+    justify-content: center;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 .iconDiv {
 
-
     width: 432px;
-    padding: 17px 0px 30px 160px;
+
 
 }
 
 .icon {
-    height: 14px;
-    width: 117px;
+    height: 18px;
+    width: 147px;
 }
 
 
 /* Selection */
 
 .selection {
-    height: 64px;
-    width: 590px;
+    height: 34px;
+    width: 490px;
     display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
 
 }
 
 .selectionItems {
     color: #666;
     text-decoration: none;
-    padding: 17px 28px 17px 28px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .selectionItems:hover {
@@ -60,22 +69,34 @@ nav {
 
 
 .Menu {
-    color: #666;
-    padding: 14px;
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 964px) {
+
+    .selection {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
 }
 
 .mainDiv {
 
     padding-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
 .landingImageDiv {
     height: 630px;
     width: 850px;
-    margin: 0px 120px 0px 120px;
 
 }
 
@@ -105,14 +126,14 @@ nav {
 
 .signUpDiv {
     height: 37px;
-    width: 186px;
+    width: 206px;
     margin-top: 20px;
     justify-self: center;
 }
 
 .signUpDivInside {
     height: 33px;
-    width: 130px;
+    width: 150px;
 
     background-color: rgb(42, 125, 169);
     border-radius: 3px;
@@ -130,29 +151,24 @@ nav {
 
 
 .mainDiv2 {
-
-    padding: 50px 50px 50px 50px;
-    margin: 0px 80px 0px 80px;
     display: flex;
+    justify-content: center;
+    padding: 30px;
 
 }
 
-.ecosystemImgDiv {
-    height: 600px;
-    width: 570px;
+.Text {
+    width: 30%;
+    font-size: 14px;
 }
+
 
 .ecosystemImg {
-    height: 600px;
-    width: 600px;
+    height: 550px;
+    width: 550px;
 
 }
 
-.ecosystemDisDiv {
-    font-family: "Inter", serif;
-    color: #2c2b2b;
-
-}
 
 footer {
     display: flex;
@@ -162,7 +178,6 @@ footer {
 
 .footerDiv {
     display: flex;
-    margin-top: 40px;
 
 }
 
@@ -191,6 +206,6 @@ footer {
 .footerDisc {
     display: flex;
     padding-left: 85px;
-    font-size: 14px;
+    font-size: 13px;
     color: #2c2b2b;
 }
